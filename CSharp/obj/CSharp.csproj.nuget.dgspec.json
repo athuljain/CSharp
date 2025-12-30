@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\dotnet\\CSHARP\\CSharp.csproj": {}
+    "D:\\dotnet\\CSharp\\CSharp.csproj": {}
   },
   "projects": {
-    "D:\\dotnet\\CSHARP\\CSharp.csproj": {
+    "D:\\dotnet\\CSharp\\CSharp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\dotnet\\CSHARP\\CSharp.csproj",
+        "projectUniqueName": "D:\\dotnet\\CSharp\\CSharp.csproj",
         "projectName": "CSharp",
-        "projectPath": "D:\\dotnet\\CSHARP\\CSharp.csproj",
+        "projectPath": "D:\\dotnet\\CSharp\\CSharp.csproj",
         "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "D:\\dotnet\\CSHARP\\obj\\",
+        "outputPath": "D:\\dotnet\\CSharp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config"

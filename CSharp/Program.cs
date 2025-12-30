@@ -195,3 +195,111 @@
 
 
 
+// function
+
+
+//  void PrintMessage()
+// {
+//     Console.WriteLine("Welcome to C Sharp");
+// }
+
+// PrintMessage();
+
+
+// void SumFunction(int x, int y)
+// {
+//     Console.WriteLine("Sum is " + (x + y));
+// }
+
+
+// SumFunction(23,45);
+
+
+
+
+
+
+//  int Add(int a, int b)
+// {
+//     return a + b;
+// }
+
+// int a=Add(4,5);
+// Console.WriteLine(a);
+
+
+
+
+
+
+
+
+
+
+
+// string CheckEvenOdd(int number)
+// {
+//     if (number % 2 == 0)
+//     {
+//         return "Even Number";
+//     }
+//     else
+//     {
+//         return "Odd Number";
+//     }
+// }
+
+// Console.WriteLine("Enter a number");
+// int num = Convert.ToInt32(Console.ReadLine());
+
+// string result = CheckEvenOdd(num);
+// Console.WriteLine(result);
+
+
+
+
+
+
+
+
+
+// ARRAY 
+
+
+// int[] numbers = { 10, 20, 30, 40, 50 };
+// Console.WriteLine(numbers[0]); 
+// Console.WriteLine(numbers[2]); 
+
+
+
+
+
+// int[] numbers = { 10, 20, 30, 40, 50 };
+
+// for (int i = 0; i < numbers.Length; i++)
+// {
+//     Console.WriteLine(numbers[i]);
+// }
+
+
+
+
+
+// int[] numbers = { 5, 10, 15, 20 };
+// int sum = 0;
+
+// foreach (int n in numbers)
+// {
+//     sum += n;
+// }
+
+// Console.WriteLine("Sum = " + sum);
+
+
+
+string[] names = { "Athul", "Anu", "Rahul" };
+
+foreach (string name in names)
+{
+    Console.WriteLine(name);
+}
