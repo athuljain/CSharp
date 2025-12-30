@@ -153,8 +153,45 @@
 
 
 
-Console.WriteLine("Enter your age");
-int age = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Enter your age");
+// int age = Convert.ToInt32(Console.ReadLine());
 
-string result = (age >= 18) ? "Eligible" : "Not Eligible";
-Console.WriteLine(result);
+// string result = (age >= 18) ? "Eligible" : "Not Eligible";
+// Console.WriteLine(result);
+
+
+
+
+//  for loop 
+
+// for(int x = 1; x < 6; x++)
+// {
+//     Console.WriteLine("C Sharp");
+// }
+
+// while loop
+
+
+// int x = 1;
+
+// while (x < 6)
+// {
+//     Console.WriteLine("C Sharp");
+//     x++;
+// }
+
+
+
+
+
+// int x = 1;
+
+// do
+// {
+//     Console.WriteLine("C Sharp");
+//     x++;
+// }
+// while (x < 6);
+
+
+
