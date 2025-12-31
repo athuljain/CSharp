@@ -1,0 +1,15 @@
+D:\dotnet\Csharp2\obj\Debug\net10.0\Csharp2.GeneratedMSBuildEditorConfig.editorconfig
+D:\dotnet\Csharp2\obj\Debug\net10.0\Csharp2.AssemblyInfoInputs.cache
+D:\dotnet\Csharp2\obj\Debug\net10.0\Csharp2.AssemblyInfo.cs
+D:\dotnet\Csharp2\obj\Debug\net10.0\Csharp2.csproj.CoreCompileInputs.cache
+D:\dotnet\Csharp2\obj\Debug\net10.0\Csharp2.sourcelink.json
+D:\dotnet\Csharp2\bin\Debug\net10.0\Csharp2.exe
+D:\dotnet\Csharp2\bin\Debug\net10.0\Csharp2.deps.json
+D:\dotnet\Csharp2\bin\Debug\net10.0\Csharp2.runtimeconfig.json
+D:\dotnet\Csharp2\bin\Debug\net10.0\Csharp2.dll
+D:\dotnet\Csharp2\bin\Debug\net10.0\Csharp2.pdb
+D:\dotnet\Csharp2\obj\Debug\net10.0\Csharp2.dll
+D:\dotnet\Csharp2\obj\Debug\net10.0\refint\Csharp2.dll
+D:\dotnet\Csharp2\obj\Debug\net10.0\Csharp2.pdb
+D:\dotnet\Csharp2\obj\Debug\net10.0\Csharp2.genruntimeconfig.cache
+D:\dotnet\Csharp2\obj\Debug\net10.0\ref\Csharp2.dll
