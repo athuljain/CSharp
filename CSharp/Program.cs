@@ -297,9 +297,79 @@
 
 
 
-string[] names = { "Athul", "Anu", "Rahul" };
+// string[] names = { "Athul", "Anu", "Rahul" };
 
-foreach (string name in names)
-{
-    Console.WriteLine(name);
-}
+// foreach (string name in names)
+// {
+//     Console.WriteLine(name);
+// }
+
+
+
+
+
+
+
+
+
+
+
+// simple calculator
+
+
+Console.WriteLine("enter first number");
+int num1=Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("enter second number");
+int num2=Convert.ToInt32(Console.ReadLine());
+
+Console.WriteLine($" first num is {num1} and second num is {num2}");
+
+Console.WriteLine("Choose an operation:");
+        Console.WriteLine("1. Addition");
+        Console.WriteLine("2. Subtraction");
+        Console.WriteLine("3. Multiplication");
+        Console.WriteLine("4. Division");
+
+
+        Console.Write("Enter your choice (1-4): ");
+
+        int choice=Convert.ToInt32(Console.ReadLine());
+
+        int result = 0;
+         
+
+         switch(choice)
+         {
+            case 1:
+            result=num1+num2;
+              Console.WriteLine("Result = " + result);
+                break;
+
+                case 2:
+            result=num1+num2;
+              Console.WriteLine("Result = " + result);
+                break;
+
+                case 3:
+            result=num1-num2;
+              Console.WriteLine("Result = " + result);
+                break;
+
+                case 4:
+                result=num1/num2;
+                Console.WriteLine("Result = ",+ result);
+                break;
+                
+                default:
+                Console.WriteLine("Invalid choice");
+                break;
+         }
+
+
+        //  --------------------------------------------------------
+        // ---------------------------------------------------------
+
+
+
+
+        
