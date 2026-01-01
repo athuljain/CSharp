@@ -347,66 +347,71 @@
 // Loops 
 
 
-using System;
-using System.Collections.Generic;
+// using System;
+// using System.Collections.Generic;
 
-namespace Program
-{
-    public class Program
-    {
-        public static void Main()
-        {
-            // //for looop
+// namespace Program
+// {
+//     public class Program
+//     {
+//         public static void Main()
+//         {
+//             // //for looop
 
-            // for (int i = 1; i <= 5; i++)
-            // {
-            //     Console.WriteLine("C#");
-            // }
-
-
-            // ---------------
-
-            //while loop
+//             // for (int i = 1; i <= 5; i++)
+//             // {
+//             //     Console.WriteLine("C#");
+//             // }
 
 
-            // int i = 1;
+//             // ---------------
 
-            // while (i <= 5)
-            // {
-            //     Console.WriteLine(i);
-            //     i++;
-            // }
+//             //while loop
 
 
-            // ------------------
+//             // int i = 1;
+
+//             // while (i <= 5)
+//             // {
+//             //     Console.WriteLine(i);
+//             //     i++;
+//             // }
 
 
-            //do while loop
+//             // ------------------
+
+
+//             //do while loop
 
 
 
-            // int i = 1;
+//             // int i = 1;
 
-            // do
-            // {
-            //     Console.WriteLine(i);
-            //     i++;
-            // }
-            // while (i <= 5);
-
-
-        // -------------------
+//             // do
+//             // {
+//             //     Console.WriteLine(i);
+//             //     i++;
+//             // }
+//             // while (i <= 5);
 
 
-        for (int i = 1; i <= 10; i++)
-{
-    if (i % 2 == 0)
-    {
-        Console.WriteLine(i);
-    }
-}
+//             // -------------------
 
 
-        }
-    }
-}
+//             //         for (int i = 1; i <= 10; i++)
+//             // {
+//             //     if (i % 2 == 0)
+//             //     {
+//             //         Console.WriteLine(i);
+//             //     }
+//             // }
+
+
+//         }
+//     }
+// }
+
+
+
+
+// =========================================
