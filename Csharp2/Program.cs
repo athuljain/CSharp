@@ -123,7 +123,36 @@
 //     }
 // }
 
+// ============================================
 
+// using System;
+// using System.Collections.Generic;
+
+// namespace Program
+// {
+//     public class Program
+//     {
+//         public static void Main(String [] args)
+//         {
+//             fruits("Apple","Red");
+//             fruits("Grape","Black");
+//         }
+
+// static void fruits(string name,string color)
+//         {
+//             Console.WriteLine("fruit name is {0} and color is{1}",name,color);
+//         }
+
+//     }
+// }
+
+
+
+// ====================================================
+
+
+
+// method with retun
 
 using System;
 using System.Collections.Generic;
@@ -132,15 +161,28 @@ namespace Program
 {
     public class Program
     {
-        public static void Main(String [] args)
+        public static void Main(String[] args)
         {
-            fruits("Apple","Red");
+            // Console.WriteLine(Add(10,5));
+
+            // ====================================
+
+            // int result=Add(30,20);
+            // Console.WriteLine(result);
+
+            // =====================================
+
+              int num1 = 30;
+            int num2 = 20;
+
+            int result = Add(num1, num2);
+            Console.WriteLine($"Sum of {num1} and {num2} is {result}");
+            
         }
 
-static void fruits(string name,string color)
+        public static int Add(int num1,int num2)
         {
-            Console.WriteLine("fruit name is {0} and color is{1}",name,color);
+            return num1+num2;
         }
-
     }
 }
