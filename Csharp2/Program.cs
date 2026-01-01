@@ -154,7 +154,152 @@
 
 // method with retun
 
-using System;
+// using System;
+// using System.Collections.Generic;
+
+// namespace Program
+// {
+//     public class Program
+//     {
+//         public static void Main(String[] args)
+//         {
+//             // Console.WriteLine(Add(10,5));
+
+//             // ====================================
+
+//             // int result=Add(30,20);
+//             // Console.WriteLine(result);
+
+//             // =====================================
+
+//               int num1 = 30;
+//             int num2 = 20;
+
+//             int result = Add(num1, num2);
+//             Console.WriteLine($"Sum of {num1} and {num2} is {result}");
+            
+//         }
+
+//         public static int Add(int num1,int num2)
+//         {
+//             return num1+num2;
+//         }
+//     }
+// }
+
+
+
+// ========================================
+
+
+// conditional statement
+
+
+
+//  using System;
+// using System.Collections.Generic;
+
+// namespace Program
+// {
+//     public class Program
+//     {
+//         public static void Main(String[] args)
+//         {
+//              Console.Write("Enter first number: ");
+//         int num1 = Convert.ToInt32(Console.ReadLine());
+
+//         Console.Write("Enter second number: ");
+//         int num2 = Convert.ToInt32(Console.ReadLine());
+
+//         int sum = Add(num1, num2);
+//         Console.WriteLine("Sum = " + sum);
+            
+//         }
+
+//         public static int Add(int num1,int num2)
+//         {
+//             return num1+num2;
+//         }
+//     }
+// }
+
+
+
+// ==========================================
+
+
+
+
+//  using System;
+// using System.Collections.Generic;
+
+// namespace Program
+// {
+//     public class Program
+//     {
+//         public static void Main(String[] args)
+//         {
+//              Console.Write("Enter your age: ");
+//         int age = Convert.ToInt32(Console.ReadLine());
+
+//             if (age >= 18)
+//             {
+//                 Console.WriteLine("your eligilbe for vote");
+//             }
+//             else
+//             {
+//                 Console.WriteLine("your minnor");
+//             }
+      
+
+            
+//         }
+
+       
+//     }
+// }
+
+
+
+// ========================================
+
+
+
+//  using System;
+// using System.Collections.Generic;
+
+// namespace Program
+// {
+//     public class Program
+//     {
+//         public static void Main(String[] args)
+//         {
+//              Console.Write("Enter first number: ");
+//         int num1 = Convert.ToInt32(Console.ReadLine());
+
+//         Console.Write("Enter second number: ");
+//         int num2 = Convert.ToInt32(Console.ReadLine());
+
+//         int sum = Add(num1, num2);
+//         Console.WriteLine("Sum = " + sum);
+            
+//         }
+
+//         public static int Add(int num1,int num2)
+//         {
+//             return num1+num2;
+//         }
+//     }
+// }
+
+
+
+// ==========================================
+
+
+
+
+ using System;
 using System.Collections.Generic;
 
 namespace Program
@@ -163,26 +308,30 @@ namespace Program
     {
         public static void Main(String[] args)
         {
-            // Console.WriteLine(Add(10,5));
+            Console.WriteLine("enter your Review 1 - 3: ");
+            int mark=Convert.ToInt32(Console.ReadLine());
 
-            // ====================================
+            switch (mark)
+            {
+                case 1 :
+                Console.WriteLine("thank you !!! your review is 1");
+                break;
 
-            // int result=Add(30,20);
-            // Console.WriteLine(result);
+                   case 2 :
+                Console.WriteLine("thank you !!! your review is 2");
+                break;
+                   case 3 :
+                Console.WriteLine("thank you !!! your review is 3");
+                break;
+                default:
+                Console.WriteLine("invalid entry");
+                break;
+            }
+      
 
-            // =====================================
-
-              int num1 = 30;
-            int num2 = 20;
-
-            int result = Add(num1, num2);
-            Console.WriteLine($"Sum of {num1} and {num2} is {result}");
             
         }
 
-        public static int Add(int num1,int num2)
-        {
-            return num1+num2;
-        }
+       
     }
 }
