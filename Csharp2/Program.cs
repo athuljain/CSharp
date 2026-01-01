@@ -177,7 +177,7 @@
 
 //             int result = Add(num1, num2);
 //             Console.WriteLine($"Sum of {num1} and {num2} is {result}");
-            
+
 //         }
 
 //         public static int Add(int num1,int num2)
@@ -213,7 +213,7 @@
 
 //         int sum = Add(num1, num2);
 //         Console.WriteLine("Sum = " + sum);
-            
+
 //         }
 
 //         public static int Add(int num1,int num2)
@@ -250,12 +250,12 @@
 //             {
 //                 Console.WriteLine("your minnor");
 //             }
-      
 
-            
+
+
 //         }
 
-       
+
 //     }
 // }
 
@@ -282,7 +282,7 @@
 
 //         int sum = Add(num1, num2);
 //         Console.WriteLine("Sum = " + sum);
-            
+
 //         }
 
 //         public static int Add(int num1,int num2)
@@ -299,39 +299,114 @@
 
 
 
- using System;
+//  using System;
+// using System.Collections.Generic;
+
+// namespace Program
+// {
+//     public class Program
+//     {
+//         public static void Main(String[] args)
+//         {
+//             Console.WriteLine("enter your Review 1 - 3: ");
+//             int mark=Convert.ToInt32(Console.ReadLine());
+
+//             switch (mark)
+//             {
+//                 case 1 :
+//                 Console.WriteLine("thank you !!! your review is 1");
+//                 break;
+
+//                    case 2 :
+//                 Console.WriteLine("thank you !!! your review is 2");
+//                 break;
+//                    case 3 :
+//                 Console.WriteLine("thank you !!! your review is 3");
+//                 break;
+//                 default:
+//                 Console.WriteLine("invalid entry");
+//                 break;
+//             }
+
+
+
+//         }
+
+
+//     }
+// }
+
+
+
+
+
+
+// =============================================
+
+
+// Loops 
+
+
+using System;
 using System.Collections.Generic;
 
 namespace Program
 {
     public class Program
     {
-        public static void Main(String[] args)
+        public static void Main()
         {
-            Console.WriteLine("enter your Review 1 - 3: ");
-            int mark=Convert.ToInt32(Console.ReadLine());
+            // //for looop
 
-            switch (mark)
-            {
-                case 1 :
-                Console.WriteLine("thank you !!! your review is 1");
-                break;
+            // for (int i = 1; i <= 5; i++)
+            // {
+            //     Console.WriteLine("C#");
+            // }
 
-                   case 2 :
-                Console.WriteLine("thank you !!! your review is 2");
-                break;
-                   case 3 :
-                Console.WriteLine("thank you !!! your review is 3");
-                break;
-                default:
-                Console.WriteLine("invalid entry");
-                break;
-            }
-      
 
-            
+            // ---------------
+
+            //while loop
+
+
+            // int i = 1;
+
+            // while (i <= 5)
+            // {
+            //     Console.WriteLine(i);
+            //     i++;
+            // }
+
+
+            // ------------------
+
+
+            //do while loop
+
+
+
+            // int i = 1;
+
+            // do
+            // {
+            //     Console.WriteLine(i);
+            //     i++;
+            // }
+            // while (i <= 5);
+
+
+        // -------------------
+
+
+        for (int i = 1; i <= 10; i++)
+{
+    if (i % 2 == 0)
+    {
+        Console.WriteLine(i);
+    }
+}
+
+
         }
-
-       
     }
 }
