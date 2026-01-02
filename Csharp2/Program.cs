@@ -445,3 +445,71 @@
 //     }
 // }
 
+
+
+
+// ===========================================
+
+
+// structure
+
+
+
+// using System;
+
+// namespace Program
+// {
+//     struct student
+//     {
+//         public int id;
+//         public string name;
+//         public int age;
+
+//     }
+
+//     public class Program
+//     {
+//         public static void Main(String [] args)
+//         {
+//             student S1;
+//             S1.id=100;
+//             S1.name="athul";
+//             S1.age=25;
+
+//             Console.WriteLine($"stduent id : {S1.id}");
+//         }
+//     }
+// }
+
+
+// ==========================================================
+
+
+
+// using System;
+
+// struct Rectagle
+// {
+//     public int length;
+//     public int width;
+//     public int Area()
+//     {
+//         return length*width;
+//     }
+// }
+
+// public class Program
+// {
+//     public static void Main(String [] args)
+//     {
+//         Rectagle r;
+//         r.length=10;
+//         r.width=6;
+
+//         Console.WriteLine("area: "+r.Area());
+//     }
+// }
+
+
+
+// ============================================
