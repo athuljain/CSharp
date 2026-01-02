@@ -415,3 +415,33 @@
 
 
 // =========================================
+
+
+// exception handling
+
+
+
+// using System;
+
+// namespace Program
+// {
+//     public class Program
+//     {
+//         public static void Main(String [] args)
+//         {
+//              try
+//         {
+//             int a = 10;
+//             int b = 0;
+//             int result = a / b;
+//             Console.WriteLine(result);
+//         }
+//         catch (Exception ex)
+//         {
+//             Console.WriteLine("Error: " + ex.Message);
+//         }
+
+//         }
+//     }
+// }
+
