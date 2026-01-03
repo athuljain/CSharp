@@ -513,3 +513,22 @@
 
 
 // ============================================
+
+//class
+
+//============================================
+
+using System;
+using System.Collections.Generic;
+using fruitsClass;
+namespace Program
+{
+    public class Program
+    {
+        public static void Main(String[] args)
+        {
+            Fruits fruit1=new Fruits("apple","red");
+            fruit1.DisplayFruits();
+        }
+    }
+}
