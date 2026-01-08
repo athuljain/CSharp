@@ -1,0 +1,15 @@
+D:\dotnet\Csharp3\bin\Debug\net10.0\Csharp3.exe
+D:\dotnet\Csharp3\bin\Debug\net10.0\Csharp3.deps.json
+D:\dotnet\Csharp3\bin\Debug\net10.0\Csharp3.runtimeconfig.json
+D:\dotnet\Csharp3\bin\Debug\net10.0\Csharp3.dll
+D:\dotnet\Csharp3\bin\Debug\net10.0\Csharp3.pdb
+D:\dotnet\Csharp3\obj\Debug\net10.0\Csharp3.GeneratedMSBuildEditorConfig.editorconfig
+D:\dotnet\Csharp3\obj\Debug\net10.0\Csharp3.AssemblyInfoInputs.cache
+D:\dotnet\Csharp3\obj\Debug\net10.0\Csharp3.AssemblyInfo.cs
+D:\dotnet\Csharp3\obj\Debug\net10.0\Csharp3.csproj.CoreCompileInputs.cache
+D:\dotnet\Csharp3\obj\Debug\net10.0\Csharp3.sourcelink.json
+D:\dotnet\Csharp3\obj\Debug\net10.0\Csharp3.dll
+D:\dotnet\Csharp3\obj\Debug\net10.0\refint\Csharp3.dll
+D:\dotnet\Csharp3\obj\Debug\net10.0\Csharp3.pdb
+D:\dotnet\Csharp3\obj\Debug\net10.0\Csharp3.genruntimeconfig.cache
+D:\dotnet\Csharp3\obj\Debug\net10.0\ref\Csharp3.dll
