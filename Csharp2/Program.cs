@@ -551,12 +551,54 @@
 //             string content="hello world";
 //             File.WriteAllText("sample.txt",content);
 //             Console.Write(File.ReadAllText("sample.txt"));
-            
+
 //         }
 //     }
 // }
 
 
 
+namespace Program
+{
+    public class Program
+    {
+        public static void Main(String [] args)
+        {
+            // File.Create("data.txt").Close();
+            // Console.WriteLine("file created");
 
+
+            // ------------------------------------
+
+            // File.WriteAllText("data.txt","hello from csharp");
+
+            // -------------------------------------
+
+            // string [] lines={"apple","orange","banana"};
+            // File.WriteAllLines("fruits.txt",lines);
+
+
+            // -------------------------------------
+
+            // string [] lines=File.ReadAllLines("fruits.txt");
+            // foreach(string line in lines)
+            // {
+            //     Console.WriteLine(line);
+            // }
+
+
+            // -------------------------------------
+
+        //    string[] fruits = { "mango" };
+        //    File.AppendAllLines("fruits.txt", fruits);
+
+
+        // -------------------------------------
+
+
+        // File.Delete("data.txt");
+
+        }
+    }
+}
 
